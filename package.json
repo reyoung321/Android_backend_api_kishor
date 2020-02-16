@@ -1,14 +1,17 @@
 {
-  "name": "easymanpower",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "jest --watchAll"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
     "cors": "^2.8.5",
     "debug": "^4.1.1",
-    "express": "^4.17.1",
+    "express": "^4.17.0",
     "express-session": "^1.17.0",
     "mongoose": "^5.8.11",
     "morgan": "^1.9.1",
@@ -21,17 +24,6 @@
     "session-file-store": "^1.4.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/reyoung321/Android_backend_api_kishor.git"
-  },
-  "author": "kishor Bhattarai",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/reyoung321/Android_backend_api_kishor/issues"
-  },
-  "homepage": "https://github.com/reyoung321/Android_backend_api_kishor#readme"
+  "author": "Kishor Bhattarai",
+  "license": "ISC"
 }
